@@ -1,0 +1,20 @@
+{
+   "version": 2,
+   "bilds":[
+    {
+        "src":"index.js",
+        "use":"@vercel/node"
+    }
+   ],
+   "routes":[
+    {
+        "src":"/user/(.*)",
+        "dest":"index.js"
+    },
+    {
+        "src":"/projects/(.*)",
+        "dest":"index.js"
+    }
+   ]
+
+}
