@@ -4,6 +4,12 @@
 
 The **Freelancer Project Management System** is a web application designed to help freelancers efficiently manage their projects. The system allows users to create, update, view, and delete projects, manage their payment status, and handle authentication through token-based authentication (JWT).
 
+---
+
+## Vercel Deployment Url
+
+https://freelancers-project-management-system.vercel.app/
+
 ## Tech Stack
 
 - **Backend**: Node.js, Express.js
